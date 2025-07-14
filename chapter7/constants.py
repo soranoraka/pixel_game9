@@ -1,0 +1,41 @@
+
+
+SCROLL_BORDER_X = 80
+
+
+
+TILE_NONE = 0
+TILE_GEM = 1
+TILE_EXIT = 2
+TILE_MUSHROOM = 3
+TILE_SPIKE = 4
+TILE_LAVA = 5
+TILE_WALL = 6
+TILE_SLIME1_POINT = 7
+TILE_SLIME2_POINT = 8
+TILE_MUMMY_POINT = 9
+TILE_FLOWER_POINT = 10
+
+
+TILE_TO_TILETYPE = {
+    (1, 0): TILE_GEM,
+    (2, 0): TILE_EXIT,
+    (3, 0): TILE_MUSHROOM,
+    (4, 0): TILE_SPIKE,
+    (5, 0): TILE_LAVA,
+    (1, 2): TILE_WALL,
+    (2, 2): TILE_WALL,
+    (3, 2): TILE_WALL,
+    (4, 2): TILE_WALL,
+    (5, 2): TILE_WALL,
+    (6, 2): TILE_WALL,
+    (7, 2): TILE_WALL,
+    (1, 3): TILE_WALL,    
+    (2, 3): TILE_WALL,
+    (1, 4): TILE_WALL,
+    (1, 5): TILE_WALL,
+    (0, 9): TILE_SLIME1_POINT,
+    (0, 10): TILE_SLIME2_POINT,
+    (0, 11): TILE_MUMMY_POINT,
+    (0, 12): TILE_FLOWER_POINT,
+}
